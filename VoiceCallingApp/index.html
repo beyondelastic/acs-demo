@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Azure Communication Services - Simple voice calling app</title>
+  </head>
+  <body>
+    <h1>Azure Communication Services</h1>
+    <h2>Simple voice calling app</h2>
+
+    <!-- Calling HTML here -->
+<input 
+    id="token-input"
+    type="text"
+    placeholder="Your User access token"
+/>
+<button id="token-submit" type="button">
+    Submit
+</button>
+<br /><br />
+<input 
+    id="callee-id-input"
+    type="text"
+    placeholder="Who would you like to call?"
+    style="margin-bottom:1em; width: 200px; display: block;"
+/>
+<button id="call-button" type="button" disabled="true">
+    Start Call
+</button>
+&nbsp;
+<button id="hang-up-button" type="button" disabled="true">
+    Hang Up
+</button>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
