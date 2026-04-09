@@ -1,0 +1,4 @@
+# Requirements for src/app1/main.py
+python-dotenv
+azure-identity
+azure-ai-projects
